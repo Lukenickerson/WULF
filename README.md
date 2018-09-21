@@ -4,14 +4,25 @@ WULF is a project that intends to create a framework based on open web technolog
 
 ## Philosophy
 
-* Open and interactive world
-* Modular components
-* Keep an eye towards future additions; don't prevent modification
-* Online-capable (Server-Client architecture)
-* Persistant characters - PCs become NPCs when their player is offline
-* Nothing is indestructible or immortal, except by in-game mechanics
+* Open, interactive, simulated world
+  - Go anywhere
+  - Time always passes
+* Persistant, living characters
+  - PCs become NPCs when their player is offline
+  - Bot-friendly
+  - Aging and mortality
+* Everything happens in the fiction/simulation
+  - Nothing should be indestructible or immortal, except by in-game mechanics
+  - World-building is done by entities (gods, wizards)
+* Framework needs to be easy to enhance
+  - Modular components
+  - Keep an eye towards future additions; don't prevent modification
+  - JavaScript is a language that many developers know and that can be learned online
+  - Open source
+* Online-capable
+  - Server-Client architecture
 * Top-down 2D is sufficient
-* Bot-friendly
+  - Simple graphics
 
 ## Wishlist (TBD)
 
