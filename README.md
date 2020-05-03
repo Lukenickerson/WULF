@@ -9,7 +9,8 @@ WULF is a project that intends to create a framework based on open web technolog
   - Time always passes
 * Persistant, living characters
   - PCs become NPCs when their player is offline
-  - Bot-friendly
+  - NPC schedules
+  - Bot-friendly (BPC)
   - Aging and mortality
 * Everything happens in the fiction/simulation
   - Nothing should be indestructible or immortal, except by in-game mechanics
@@ -24,11 +25,41 @@ WULF is a project that intends to create a framework based on open web technolog
 * Top-down 2D is sufficient
   - Simple graphics
 
+## What Works Now
+
+
+- Run client from browser at `http://localhost:5000` (not working)
+- OR run client with a separate server (e.g. Fenix) at an address like `http://localhost/WULF-client/`.
+
+- [x] Create characters on server based on user
+- [x] Create character at random x,y
+- [x] Load simple map into server
+- [x] Send map to client
+- [x] Client display map
+- [x] Send characters to clients and display
+- [x] Basic game loop in server
+- [x] Click for movement to x, y
+- [x] Pass movement commands to server
+
+## TO DO
+
+- [ ] Bring in `Coords`
+- [ ] Fix movement on server
+- [ ] Move character on client
+- [ ] KB input for movement
+- [ ] Tell client when map content has changed
+- [ ] Server send moves to client for animation
+
+- [ ] Clean up client/servamo chat
+- [ ] Bring client code into server for testing? or have a status / landing page?
+- [ ] Add nvm
+- [ ] Move sevamo, usernaming, etc. to their own libraries
+
 ## Wishlist (TBD)
 
 * Map builder
 * Load map by height map and terrain grid
-* _...TBD... in progress..._
+* _...TBD..._
 
 ## New Project Britannia Wishlist from SSSH podcast #15 (2015)
 
