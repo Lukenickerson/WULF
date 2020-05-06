@@ -40,20 +40,59 @@ WULF is a project that intends to create a framework based on open web technolog
 - [x] Basic game loop in server
 - [x] Click for movement to x, y
 - [x] Pass movement commands to server
+- [x] Bring in `Coords`
+- [x] Fix movement on server
+- [x] Move character on client
+- [x] Terrain types / Advanced map data
+- [x] Display as scroll-o-sprites graphics
+- [x] Detect clicks on Pixi display
+- [x] Remove text map
+- [x] Clean-up Pixi Display code
+- [x] Roguelike pixel font
+- [x] Enter to focus chat
 
 ## TO DO
 
-- [ ] Bring in `Coords`
-- [ ] Fix movement on server
-- [ ] Move character on client
-- [ ] KB input for movement
-- [ ] Tell client when map content has changed
+- [ ] Actions row 1-9
+- [ ] Right-click for simple actions menu
+- [ ] Action: Pick up flower from sack
+- [ ] Action: Place flower down
+- [ ] Action: Pick up
+- [ ] Action: Plant seed
+
+- [ ] Tell client about characters separately from terrain
+- [ ] Display characters on sub-tile format and hide covered tile
+
+- [ ] Obstacle detection on server-side
+- [ ] A-star on server-side
+
+- [ ] KB input for movement (similar to rote?)
+
+- [ ] Chat bubbles
+
+- [ ] Tell client when map content has changed rather than constantly
+- [ ] Tell client about items/blocks
 - [ ] Server send moves to client for animation
 
+- [ ] Switch characters into NPC mode when player leaves
+
+- [ ] Save Player data in client
+- [ ] Save Player data and reload on restart
+- [ ] Save character data and reload on restart
+- [ ] Save map data and reload on restart
+
+- [ ] Scroll to zoom
+
+- [ ] Efficiency in redrawing sprites
 - [ ] Clean up client/servamo chat
-- [ ] Bring client code into server for testing? or have a status / landing page?
-- [ ] Add nvm
+- [ ] Import RocketBoots modules properly
+- [ ] Move pixi display to its own library
 - [ ] Move sevamo, usernaming, etc. to their own libraries
+
+- [ ] Switch server to ES6 modules
+- [ ] Combine server and client together in WULF package for testing
+- [ ] Add nvm
+- [ ] Convert server so it can run in the browser
 
 ## Wishlist (TBD)
 
