@@ -2,6 +2,11 @@
 
 WULF is a project that intends to create a framework based on open web technology that would allow easy creation of Ultima-like browser games.
 
+## Repos
+
+* Server code: https://github.com/rocket-boots/WULF-server
+* Client code: https://github.com/rocket-boots/WULF-client
+
 ## Philosophy
 
 * Open, interactive, simulated world
@@ -27,10 +32,7 @@ WULF is a project that intends to create a framework based on open web technolog
 
 ## What Works Now
 
-
-- Run client from browser at `http://localhost:5000` (not working)
-- OR run client with a separate server (e.g. Fenix) at an address like `http://localhost/WULF-client/`.
-
+- Run client with a separate server (e.g. Fenix) at an address like `http://localhost/WULF-client/`.
 - [x] Create characters on server based on user
 - [x] Create character at random x,y
 - [x] Load simple map into server
@@ -103,7 +105,7 @@ WULF is a project that intends to create a framework based on open web technolog
 - [ ] Move pixi display to its own library
 - [ ] Move sevamo, usernaming, etc. to their own libraries
 
-- [ ] Combine server and client together in WULF package for testing
+- [ ] Combine server and client together in WULF package for testing (i.e., run client from browser at `http://localhost:5000`)
 - [ ] Add nvm
 - [ ] Convert server so it can run in the browser
 
