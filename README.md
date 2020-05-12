@@ -50,30 +50,44 @@ WULF is a project that intends to create a framework based on open web technolog
 - [x] Clean-up Pixi Display code
 - [x] Roguelike pixel font
 - [x] Enter to focus chat
+- [x] Switch server to ES6 modules
+- [x] Pass terrain/item data to client
+- [x] Different objects for items, blocks, terrain, characters
+- [x] Merge in the entity types and add tile property with key
+- [x] Tell client about items/blocks
+- [x] Obstacle detection on server-side
+- [x] Tell display about characters separately from terrain
+- [x] Display characters on sub-tile format and hide covered tile
 
 ## TO DO
 
+- [ ] Info about what actions can be done on which entities
+- [ ] Smart click so that trees can be auto-chopped
+
 - [ ] Actions row 1-9
 - [ ] Right-click for simple actions menu
-- [ ] Action: Pick up flower from sack
-- [ ] Action: Place flower down
-- [ ] Action: Pick up
-- [ ] Action: Plant seed
 
-- [ ] Tell client about characters separately from terrain
-- [ ] Display characters on sub-tile format and hide covered tile
-
-- [ ] Obstacle detection on server-side
-- [ ] A-star on server-side
+- [ ] Action: Pick up item
 
 - [ ] KB input for movement (similar to rote?)
+
+- [ ] Action: Pick up flower from sack
+- [ ] Action: Place flower down
+- [ ] Action: Pick up water
+- [ ] Action: Drop water on flower to mix --> make dough
+- [ ] Action: Drop dough in oven
+- [ ] Oven cook dough to bread
+
+- [ ] Action: chop tree
+- [ ] Update map's passable array when there are updates to terrain, blocks, items, etc.
+- [ ] Action: Plant seed
 
 - [ ] Chat bubbles
 
 - [ ] Tell client when map content has changed rather than constantly
-- [ ] Tell client about items/blocks
 - [ ] Server send moves to client for animation
 
+- [ ] A-star on server-side
 - [ ] Switch characters into NPC mode when player leaves
 
 - [ ] Save Player data in client
@@ -89,12 +103,26 @@ WULF is a project that intends to create a framework based on open web technolog
 - [ ] Move pixi display to its own library
 - [ ] Move sevamo, usernaming, etc. to their own libraries
 
-- [ ] Switch server to ES6 modules
 - [ ] Combine server and client together in WULF package for testing
 - [ ] Add nvm
 - [ ] Convert server so it can run in the browser
 
 ## Wishlist (TBD)
+
+- Items:
+  - 1-2 - hands
+  - 3-4 - body (requires shirt)
+  - 5-6 - legs/belt (requires pants or belt)
+  - 7,8,9,0 - back (requires backpack)
+- Clothing:
+  - 1 - gloves
+  - 2 - rings
+  - 3 - arms (bracers)
+  - 4 - torso
+  - 5 - pants
+  - 6 - shoes
+  - 7 - back
+  - 8 - head
 
 * Map builder
 * Load map by height map and terrain grid
