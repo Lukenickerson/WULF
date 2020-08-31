@@ -89,7 +89,7 @@ WULF is a project that intends to create a framework based on open web technolog
 - [ ] Tell client when map content has changed rather than constantly
 - [ ] Server send moves to client for animation
 
-- [ ] A-star on server-side
+- [ ] A-star on server-side - https://github.com/bgrins/javascript-astar
 - [ ] Switch characters into NPC mode when player leaves
 
 - [ ] Save Player data in client
@@ -108,6 +108,9 @@ WULF is a project that intends to create a framework based on open web technolog
 - [ ] Combine server and client together in WULF package for testing (i.e., run client from browser at `http://localhost:5000`)
 - [ ] Add nvm
 - [ ] Convert server so it can run in the browser
+
+- [ ] U4 option for tiles https://github.com/jahshuwaa/u4graphics
+- [ ] Pixel fonts? https://github.com/byackley/pixelfonts
 
 ## Wishlist (TBD)
 
